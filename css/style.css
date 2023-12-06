@@ -214,6 +214,16 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+
+    appearance: none;
+    -webkit-appearance: none; /* Safari и Chrome */
+    -moz-appearance: none; /* Mozilla */
+    -ms-appearance: none; /* IE */
+    background-image: url(../img/select-arrow.svg);
+    background-repeat: no-repeat;    
+    background-position: calc(100% - 20px) center;
+    outline: none;
+    cursor: pointer;
 }
 
 .order__form-item::-webkit-input-placeholder {
@@ -689,5 +699,6 @@ input[type=range].order__form-item--range.slider-progress:active::-ms-fill-lower
     background: url(../img/dwamujika.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 100%;
     }
   }
