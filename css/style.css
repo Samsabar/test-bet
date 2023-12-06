@@ -41,6 +41,10 @@ body {
     background-size: cover;
 }
 
+  .footer__item {
+    
+  }
+
 .banner {
   position: relative;
   height: 850px;
@@ -214,17 +218,21 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-
-    appearance: none;
-    -webkit-appearance: none; /* Safari и Chrome */
-    -moz-appearance: none; /* Mozilla */
-    -ms-appearance: none; /* IE */
-    background-image: url(../img/select-arrow.svg);
-    background-repeat: no-repeat;    
-    background-position: calc(100% - 20px) center;
-    outline: none;
-    cursor: pointer;
 }
+
+.order__form-item--arrow {
+  appearance: none;
+  -webkit-appearance: none; /* Safari и Chrome */
+  -moz-appearance: none; /* Mozilla */
+  -ms-appearance: none; /* IE */
+  background-image: url(../img/select-arrow.svg);
+  background-repeat: no-repeat;    
+  background-position: calc(100% - 10px) center;
+  outline: none;
+  cursor: pointer;
+}
+
+
 
 .order__form-item::-webkit-input-placeholder {
 
