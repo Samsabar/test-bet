@@ -688,6 +688,6 @@ input[type=range].order__form-item--range.slider-progress:active::-ms-fill-lower
     width: 100%;
     background: url(../img/dwamujika.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     }
   }
